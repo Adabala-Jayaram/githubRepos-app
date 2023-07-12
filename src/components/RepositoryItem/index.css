@@ -1,0 +1,39 @@
+.repository-card {
+  width: 130px;
+  height: 200px;
+  background-color: #f8f8ff;
+  border-radius: 8px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+.repository-card-img {
+  width: 50px;
+  height: 50px;
+}
+.repository-card-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #e73959;
+}
+.repository-card-icons {
+  width: 10px;
+  height: 11px;
+}
+.repository-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
+}
+.card-item-description {
+  font-size: 15px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
